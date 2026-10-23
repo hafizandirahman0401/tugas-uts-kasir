@@ -102,7 +102,7 @@ public class KasirFrame extends JFrame {
     }
 
     private void initUI() {
-        setTitle("KASIR TOKO HASAN - Point of Sales (POS)");
+        setTitle("KASIR TOKO SERBAMART HAFIZ - Point of Sales (POS)");
         setSize(1100, 750);
         setMinimumSize(new Dimension(950, 650));
         setLocationRelativeTo(null);
@@ -131,7 +131,7 @@ public class KasirFrame extends JFrame {
         JPanel header = new JPanel(new FlowLayout(FlowLayout.LEFT, 15, 12));
         header.setBackground(new Color(24, 119, 242));
 
-        JLabel lblTitle = new JLabel("KASIR TOKO HASAN");
+        JLabel lblTitle = new JLabel("KASIR TOKO SERBAMART HAFIZ");
         lblTitle.setFont(new Font("Segoe UI", Font.BOLD, 22));
         lblTitle.setForeground(Color.WHITE);
 
@@ -735,7 +735,7 @@ public class KasirFrame extends JFrame {
         StringBuilder sb = new StringBuilder();
         sb.append("===================================================\n");
         sb.append("              STRUK PEMBAYARAN KASIR               \n");
-        sb.append("                 KASIR TOKO HASAN                  \n");
+        sb.append("                 KASIR TOKO SERBAMART HAFIZ                  \n");
         sb.append("===================================================\n");
         sb.append("No. Nota : ").append(t.getNoNota()).append("\n");
         sb.append("Tanggal  : ").append(t.getTanggalWaktu()).append("\n");
@@ -820,3 +820,4 @@ public class KasirFrame extends JFrame {
         }
     }
 }
+

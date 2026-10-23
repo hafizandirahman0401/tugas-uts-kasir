@@ -102,7 +102,7 @@ public class Transaksi implements Cetakable {
     public void cetakStruk() {
         System.out.println("\n=======================================================");
         System.out.println("                 STRUK PEMBAYARAN KASIR                ");
-        System.out.println("                    KASIR TOKO HASAN                   ");
+        System.out.println("                    KASIR TOKO SERBAMART HAFIZ                   ");
         System.out.println("=======================================================");
         System.out.println("No. Nota : " + noNota);
         System.out.println("Tanggal  : " + tanggalWaktu);
@@ -189,3 +189,4 @@ public class Transaksi implements Cetakable {
         return lunas;
     }
 }
+
