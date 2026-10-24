@@ -239,7 +239,7 @@ function prosesPembayaran() {
     // Buat Struk Nota
     let teksStruk = `========================================\n`;
     teksStruk += `        STRUK PEMBAYARAN KASIR          \n`;
-    teksStruk += `           KASIR TOKO HASAN             \n`;
+    teksStruk += `      KASIR TOKO SERBAMART HAFIZ        \n`;
     teksStruk += `========================================\n`;
     teksStruk += `No. Nota : ${noNota}\n`;
     teksStruk += `Tanggal  : ${sekarang}\n`;
